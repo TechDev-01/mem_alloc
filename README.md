@@ -68,6 +68,9 @@ V
 +------------------------------------------------------------------------------------------+
 ```
 
+# To Do
+- Replace `sbrk()` with `mmap()`
+
 ## Resources
 - https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory
 - http://wiki.osdev.org/Memory_Allocation
