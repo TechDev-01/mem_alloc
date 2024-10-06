@@ -5,6 +5,7 @@ This is a very basic implementation of a memory allocator in C made for learning
 # What's dynamic allocation?
 Dynamic allocation allows more flexibilty when we're working with memory, it involves allocating memory from a region called the heap wich is larger and can save more data
 
+```plaintext
 +-------------------+  High Memory
 |       Stack       |  (grows downwards)
 |                   |
@@ -18,6 +19,7 @@ Dynamic allocation allows more flexibilty when we're working with memory, it inv
 +-------------------+
 |       Text        |  (instructions)
 +-------------------+
+```
 
 ## Explanation
 - **Stack**: Grows downwards from higher addresses to lower ones, typically used for local functions calls, local variables etc.
